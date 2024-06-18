@@ -1362,9 +1362,41 @@ body.nav-active {
 .menu .section-title {
   margin-block-end: 1px;
 }
+/*-----------------------------------*\
+  #services
+\*-----------------------------------*/
+.videoSliderWrapper1 {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  margin: auto;
+  padding-top: inherit;
+}
+.videoSliderWrapper1 img{
+  object-fit: cover;
+  width: 100%;
+}
 
 
 
+.port-video{
+  display: flex;
+  height: 98%;
+  width: 46%;
+ 
+}
+.port-video video{
+  width: 100%;
+  border: 1px solid var(--gold-crayola);
+  border-radius: 10px;
+  box-shadow: 0 0 0.25rem 0.25rem hsla(30, 96%, 44%, 0.25);
+}
+.VedioGrid{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0;
+  height: 100%;
+  }
 /*-----------------------------------*\
   #Offers
 \*-----------------------------------*/
@@ -1955,6 +1987,8 @@ font-size: small;
   .grid-list{
     display: block;
   }
+
+  
 }
 
 
@@ -1981,7 +2015,9 @@ font-size: small;
 
   }
 
+ 
 
+  
 
   /**
    * REUSED STYLE
