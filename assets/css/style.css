@@ -1508,7 +1508,7 @@ gap: 0.8rem;
 
 .videoslider {
   display: flex;
-  aspect-ratio: 15/9;
+  aspect-ratio: 5/9;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
